@@ -1,0 +1,36 @@
+.links li a { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfd', endColorstr='#edf0f3', GradientType=0 );
+}
+.links li.active a,
+.links li a:hover { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe22e', endColorstr='#639309', GradientType=0 );
+}
+.date-box { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbe3e7', endColorstr='#90a8b3', GradientType=0 );
+}
+#sidebar .widget-box .events li.active img, #sidebar .widget-box .events li:hover img, .photos li.active img, .photos li:hover img {
+	filter: alpha(opacity=40);
+	background: transparent;
+}
+.btn,
+.contact-form input[type="submit"] { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe22e', endColorstr='#639309', GradientType=0 );
+}
+.btn:hover,
+.contact-form input[type="submit"]:hover {  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccfe22e', endColorstr='#cc639309', GradientType=0 );
+}
+.box-holder .date-box { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#909090', GradientType=0 );
+}
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_n.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_ne.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_e.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_se.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_s.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_sw.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_w.png', sizingMethod='scale');
+}
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fancybox/fancy_shadow_nw.png', sizingMethod='scale');
+}
