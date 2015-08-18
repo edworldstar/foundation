@@ -48,9 +48,9 @@
                 <li><a href="our-mission.html">OUR MISSION</a></li>
 					<li><a href="past-events.html">PAST EVENTS</a></li>
 					<li><a href="press.html">PRESS</a></li>
-					<li class="active"><a href="get-in-touch.html">GET IN TOUCH</a></li>
+					<li><a href="get-in-touch.html">GET IN TOUCH</a></li>
 					<li><a href="http://www.gofundme.com/wshhfoundation" target="_blank">DONATE TODAY</a></li>
-					<li><a href="volunteer-now.html">VOLUNTEER NOW</a></li>
+					<li class="active"><a href="volunteer-now.html">VOLUNTEER NOW</a></li>
             </ul>
         </div>
     </div>
@@ -60,26 +60,35 @@
 	
 		<div class="container">
 			<main id="main" role="main">
-		<h1 class="entry-title">Contact Us</h1>	
-		<span class="top-txt"><div class="entry-content">
-
-<span class="top-txt">The Worldstar Foundation is always looking to answer any questions, concerns, or inquiries that you may have. Please feel free to get in touch with us below.</span>
-<!--
-<div class="address-box"><address>1101 Laguna Seca Drive</address><address>Brooklyn, NY, 88656</address><address><a class="tel-link" href="555555555">555.555.5555</a></address></div>
--->
-</div></span><span style="font-size: 16px;   line-height: 18px;   text-align: center;color: green;"></span>
-		<form class="contact-form" action="process.php" method="post">
+		<h1 class="entry-title">Volunteer Now</h1>	
+		<span class="top-txt">Once your application has been processed you will be assigned to your interviewer by email. Therefore it is very important that when completing the application form you ensure that your email address is correct.</span><span style="font-size: 16px;   line-height: 18px;   text-align: center;color: green;"></span>
+		<form class="contact-form" id="volunteer" name="volunteer" action="process.php" method="post">
 <fieldset>
+
+
+<div class="row"><label for="name">Have you ever volunteered before? <sub>*</sub></label><br>
+<select name="before" style="border-radius: 5px;height: 43px;    display: block;    background: #fff;    border: 1px solid #e2e2e2;    color: #4c4c4c;    font-size: 16px; line-height: 20px; padding: 5px 9px;">
+<option value="Yes">Yes</option><option value="No">No</option></select></div>
+
 <div class="row"><label for="name">Name <sub>*</sub></label><br>
-<input id="name" name="username" type="text" placeholder="Name"></div>
+<input id="name" name="username" type="text" placeholder="Name" required=""></div>
+<div class="row"><label for="mobile">Mobile <sub>*</sub></label><br>
+<input id="mobile" name="mobile" type="text" placeholder="Mobile" required=""></div>
 <div class="row"><label for="email">Email <sub>*</sub></label><br>
-<input id="email" name="email" type="email" placeholder="Email"></div>
-<div class="row"><label for="subject">Subject <sub>*</sub></label><br>
-<input id="subject" name="subject" type="text" placeholder="Subject"></div>
-<div class="row"><label for="message">Message <sub>*</sub></label><br>
-<textarea id="message" name="message" cols="10" rows="10" placeholder="Message"></textarea></div>
-<p><input type="submit" name="ContactUs" id="ContactUs" value="Contact Us"><br>
-<span class="thanks-txt">Thank you! Your message has been sent and will be responded to as soon as possible.</span></p></fieldset>
+<input id="email" name="email" type="email" placeholder="Email" required=""></div>
+
+<div class="row"><label for="country">Country/State/City <sub>*</sub></label><br>
+<input id="country" name="country" type="text" placeholder="Country/State/City" required=""></div>
+
+<div class="row"><label for="address">Address <sub>*</sub></label><br>
+<input id="address" name="address" type="text" placeholder="Address" required=""></div>
+
+<div class="row"><label for="field">Area/Field <sub>*</sub></label><br>
+<input id="field" name="field" type="text" placeholder="Area/Field" required=""></div>
+<div class="row"><label for="message">Write detail about you/Cover letter <sub>*</sub></label><br>
+<textarea name="coverletter" id="coverletter" cols="10" rows="10" placeholder="Write detail about you/Cover letter" required=""></textarea></div>
+<p><input type="submit" name="VounteerNow" id="VounteerNow" value="Send Message"><br>
+</p></fieldset>
 </form>
 		
 			</main>

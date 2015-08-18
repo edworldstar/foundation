@@ -5,7 +5,7 @@ body {
 	color: #4c4c4c;
 	font: 12px/15px Arial, Helvetica, sans-serif;
 	background: #fcfcfc url(../images/bg-body.png) repeat-x;
-	min-width: 980px;
+	/*min-width: 980px;*/
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: none;
@@ -83,7 +83,7 @@ p { margin: 0 0 1.2em; }
 #wrapper {
 	max-width: 1150px;
 	margin: 0 auto;
-	min-width: 932px;
+	min-width: 85%;
 	overflow: hidden;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
@@ -140,7 +140,7 @@ p { margin: 0 0 1.2em; }
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-.visual img { display: block; }
+.visual img { display: block; width: auto;}
 .visual .caption {
 	position: absolute;
 	left: 0;
@@ -149,7 +149,7 @@ p { margin: 0 0 1.2em; }
 	height: 100%;
 }
 .visual .caption .holder {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	position: relative;
@@ -225,7 +225,7 @@ p { margin: 0 0 1.2em; }
 	background: #fff;
 }
 #main {
-	width: 932px;
+	width: 85%;
 	margin: 0 auto;
 	padding: 27px 0 0;
 }
@@ -284,7 +284,7 @@ p { margin: 0 0 1.2em; }
 }
 #content {
 	float: left;
-	width: 708px;
+	width: 75%;
 	border-right: 1px solid #ebebeb;
 	padding: 31px 0;
 }
@@ -303,6 +303,7 @@ p { margin: 0 0 1.2em; }
 	padding: 0 0 17px;
 }
 .post .post-img img {
+width:100%;
 	display: block;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -319,7 +320,7 @@ p { margin: 0 0 1.2em; }
 	line-height: 22px;
 }
 .post .date-box {
-	width: 70px;
+	width: 100px;
 	padding: 10px 0;
 	margin: 0 23px 0 0;
 }
@@ -593,6 +594,7 @@ p { margin: 0 0 1.2em; }
 	-webkit-border-radius: 5px;
 	padding: 0 0 5px;
 	margin: 0 22px 0 0;
+	width:65%;
 }
 .video-box img {
 	display: block;
@@ -781,7 +783,7 @@ p { margin: 0 0 1.2em; }
 	font-size: 16px;
 	line-height: 28px;
 	padding: 10px 18px;
-	width: 932px;
+	width: 100%;
 	outline: none;
 }
 .contact-form .row textarea {
@@ -834,6 +836,7 @@ p { margin: 0 0 1.2em; }
 .thanks-txt span { color: #000; }
 .pepole-block .box:first-child { margin: 0 57px 0 0; }
 .pepole-block .box .alignleft {
+width:auto;
 	float: left;
 	border-radius: 5px;
 	margin: 0 22px 0 0;
