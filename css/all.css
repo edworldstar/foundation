@@ -134,13 +134,13 @@ p { margin: 0 0 1.2em; }
 }
 .visual {
 	overflow: hidden;
-	max-width: 1150px;
+	max-width: 100%;
 	position: relative;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-.visual img { display: block; width: auto;}
+.visual img { display: block; width: 100%;}
 .visual .caption {
 	position: absolute;
 	left: 0;
